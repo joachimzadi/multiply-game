@@ -45,7 +45,7 @@ function buildHeader($titre)
         
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="../assets/css/app.css">
-            <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
+            <link rel="shortcut icon" href="../assets/img/j4l_logo.svg" type="image/x-icon">
             <link rel="stylesheet" href="../assets/css/style.css">
         </head>
         <body>
@@ -75,7 +75,7 @@ function buildHeader($titre)
         </nav>
         <!-- LA NAVBAR >> -->
     TAG;
-    }else{
+    } else {
         echo <<<TAG
         <!DOCTYPE html>
         <html lang="fr">
@@ -89,10 +89,10 @@ function buildHeader($titre)
         
             <!-- Kit Font Awesome -->
             <script src="https://kit.fontawesome.com/ec63adeb54.js" defer crossorigin="anonymous"></script>
+            <link rel="shortcut icon" href="../assets/img/j4l_logo.svg" type="image/x-icon">
         
             <!-- Bootstrap CSS -->
             <link rel="stylesheet" href="../assets/css/app.css">
-            <link rel="stylesheet" href="../assets/fonts/ionicons.min.css">
             <link rel="stylesheet" href="../assets/css/style.css">
         </head>
         <body>
@@ -130,7 +130,6 @@ function buildFooter()
     echo <<<TAG
         <!-- Bootstrap JS -->
         <script src="../assets/js/app.js"></script>
-        <script src="../assets/js/script.js"></script>
         </body>        
         </html>
     TAG;

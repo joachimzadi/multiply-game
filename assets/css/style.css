@@ -398,4 +398,11 @@ a, area, button, input, label, select, summary, textarea {
   font-size: 2rem;
 }
 
+.message-resulat {
+  display: inline-block;
+  padding: 1rem;
+  text-align: center;
+  font-weight: bold;
+}
+
 /*# sourceMappingURL=style.css.map */
